@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(161, 209, 241);
+}
+.darkmode {
+background-color: black;
+color: aliceblue;
+transition: 1s;
+
+}
+.lightmode {
+    background-color: white;
+    color: black;
+transition: 1s;
+
+}
+.darkmode button{
+    background-color: aliceblue;
+    color: rgb(5, 5, 5);
+    }
+    .lightmode button{
+        background-color: rgb(10, 10, 10);
+        color: white;
+    }
+.App{
+    width: 500px;
+    height: 500px;
+    text-align: center;
+
+}
+button{
+    margin-top: 150px;
+}

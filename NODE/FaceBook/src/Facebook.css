@@ -1,0 +1,108 @@
+*{
+    margin: 0px;
+}
+
+.main{
+    width: 100%;
+    height: 750px;
+    background-color: rgb(200, 248, 232);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div1{
+    width: 400px;
+    height: 300px;
+    margin-right: 100px;
+}
+.div2{
+    width: 380px;
+    height: 350px; 
+    box-shadow: 0 0 10px 0 rgb(86, 83, 83);
+    border-radius: 5px;
+background-color:white;
+padding: 15px;
+
+}
+h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    color: rgb(18, 10, 134);
+}
+p{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Linput{
+    padding: 15px;
+    width: 320px;
+    font-size: 15px;
+    margin: 15px 10px 0px 12px;
+    border-radius: 5px;
+}
+.Linput:active{
+    box-shadow: 0 0 5px 1px blue;
+}
+.Linput:focus{
+    box-shadow: 0 0 5px 1px blue;
+
+}
+.log{
+    padding: 10px;
+    width: 350px;
+    font-size: 15px;
+    margin: 20px 10px 0px 12px;
+    border-radius: 5px;
+    background-color: rgb(30, 7, 132);
+    color: white;
+    font-size: 21px;
+
+
+}
+.forgot{
+    border: none;
+    background-color: none;
+   margin: 20px 0px 20px 130px;
+   color: blue;
+   font-size: 15px;
+}
+.create, .signUp{
+    padding: 12px;
+    font-size: 16px;
+    margin:18px 0px 0px 110px;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    
+}
+.signUp{
+    width: 200px;
+    padding: 5px;
+}
+h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    margin-left: 20px;
+}
+.Sinput{
+    padding: 10px;
+    width: 300px;
+    margin: 30px 0px 0px 38px;
+    border-radius: 5px;
+    border: 1px solid rgb(86, 84, 84);
+    box-shadow: 0  0 5px 0 rgb(90, 80, 80);
+}
+.Sdiv{
+    width: 400px;
+    height: 400px;
+    box-shadow: 0 0 10px 0 rgb(85, 79, 79);
+    margin: 160px 0 0 500px;
+}
+h2{
+    font-size: 36px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 10px 0 0 130px;
+    padding-top: 15px;
+}
+
+
